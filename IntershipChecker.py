@@ -59,7 +59,7 @@ def send_email(companies):
 
     msg = MIMEMultipart()
     msg['From'] = EMAIL_ADDRESS
-    msg['To'] = 'brendan.acosta@colorado.edu'
+    msg['To'] = 'will.ballard@colorado.edu'
     msg['Subject'] = subject
     msg.attach(MIMEText(body, 'plain'))  # Send as plain text for simplicity
 
